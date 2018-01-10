@@ -2,7 +2,7 @@ class CreateTasks < ActiveRecord::Migration[5.1]
   def change
     create_table :tasks do |t|
       t.string :title
-      t.txt :description
+      t.text :description
       t.string :company
       t.string :url
 
